@@ -3,11 +3,9 @@
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
+    
     height: 120px;
     background-image:url(../img/header.jpg);
-    justify-content: space-between;
 }
 
 .header-menu {
@@ -16,6 +14,10 @@ flex-direction: row;
 justify-content: space-evenly;
 align-items: center;
 flex-wrap: wrap;
+}
+
+.header__center{
+
 }
 
 .button {

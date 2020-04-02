@@ -4,10 +4,16 @@
 
 .header {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
+    
     height: 120px;
     background-image:url(../img/header.jpg);
+}
+
+.header__center{
+    display: flex;
     justify-content: space-between;
+    width: 50%;
 }
 
 .header-menu {
@@ -24,7 +30,8 @@ flex-wrap: wrap;
 }
 
 .header-logo__2 {
-    order: 1;
+    position: relative;
+    left: -50%;
     padding: 10px 0px 10px 0px;
 }
 
