@@ -1,0 +1,66 @@
+.z{
+    border: 1px solid rgb(172, 50, 50);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    background-image:url(../img/header.jpg);
+    justify-content: space-between;
+}
+
+.header-menu {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+order: 2;
+flex-wrap: wrap;
+}
+
+.button {
+    padding: 10px 10px;
+}
+
+.header-logo__2 {
+    order: 1;
+    padding: 10px 0px 10px 0px;
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: rgb(49, 82, 78);
+}
+
+
+
+
+/*----------------------SECTION---------------------- */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+}
+
+.section-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section-menu__cam {
+
+}
+
+.section-menu-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__img {
+}
